@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="cormorant-garamond-regular">Stepify</h1>
+
+        <nav class="cormorant-garamond-regular">
+            <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+            <a href="#">KIDS</a>
+            <a href="#">ABOUT US</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+    </header>
+
+    <main class="product">
+        <div class="product-images">
+            <div class="thumbnails">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/7572cad58f394473860650ec2e7b450a/9d4f2eafbe0a4998b30089770918a65f.jpg?imwidth=1800">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/97f8d19dfef649259bbc3748172f0ffa/1ea65bc336e94dc3a1768b7ccb50a980.jpg?imwidth=1800">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/1c05d79506614ef6af56d773b5d4cbbe/59a150e846b343c5a549434b4f0b4dc0.jpg?imwidth=1800">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/92eb75788d5f4f3281ad73486d0dba83/64184a443b6b426a929c448a5298bfaa.jpg?imwidth=1800&filter=packshot">
+            </div>
+            <div class="main-image">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/92eb75788d5f4f3281ad73486d0dba83/64184a443b6b426a929c448a5298bfaa.jpg?imwidth=1800&filter=packshot">
+            </div>
+
+        </div>
+
+        <div class="product-info">
+            <h1>Nike P-6000</h1>
+            <p class="description">
+                Inspired by the 2006 Nike Air Pegasus, the Nike P-6000 brings you a blend of iconic style that is
+                breathable, comfortable, and reminiscent of the early 2000s.
+            </p>
+            <p class="price">1 499 kr</p>
+            <p class="size">Size (EU)</p>
+            <div class="size-btn">
+                <button>38</button>
+                <button>39</button>
+                <button>40</button>
+                <button>41</button>
+                <button>42</button>
+                <button>43</button>
+            </div>
+            <div class="actions">
+                <button class="buy-btn">Add to cart</button>
+                <span class="material-symbols-outlined">favorite</span>
+            </div>
+
+            <div class="dropdowns">
+                <div>
+                    <button class="dropdown-btn" onclick="toggleDropdown(this)">
+                        Materials and care
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </button>
+                    <div class="dropdown-content">
+                        <p>Outer material: Imitation leather/textile</p>
+                        <p>Lining: Textile</p>
+                        <p>Insole: Textile</p>
+                        <p>Sole: Plastic</p>
+                        <p>Lining thickness: Thin lining</p>
+                        <p>Fabric: Thin Lining</p>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="dropdown-btn" onclick="toggleDropdown(this)">
+                        Product information
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </button>
+                    <div class="dropdown-content">
+                        <p>Sport: Running</p>
+                        <p>Weather: Rain</p>
+                        <p>Toe: Round</p>
+                        <p>Heel/Sole: Flat</p>
+                        <p>Closure: Lace-up</p>
+                        <p>Function: Breathable</p>
+                        <p>Outsole: Abrasion resistant</p>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="dropdown-btn" onclick="toggleDropdown(this)">
+                        Fit etc.
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </button>
+                    <div class="dropdown-content">
+                        <p>Shoe width: Normal</p>
+                        <p>Heel height: 4cm in size 44</p>
+                        <p>Heel height: Low</p>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="dropdown-btn" onclick="toggleDropdown(this)">
+                        Shipping and Returns
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </button>
+                    <div class="dropdown-content">
+                        <p>Delivery time: Usually between 2-5 working days</p>
+                        <p>Free shipping on orders over 1000 SEK</p>
+                        <p>30-day open purchase</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div>
+        <h2 class="recommendations-title">You may also like</h2>
+        <div class="recommendations">
+
+            <div class="recommendations-product">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/bee37527f48e463fa7b4baac0810c03e/84701937429b4d1b905179c91a487273.jpg?imwidth=300">
+                <p class="product-title">Bershka</p>
+                <p>Derby - Lace-Up Ankle Boots</p>
+                <p>499 KR</p>
+            </div>
+
+            <div class="recommendations-product">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/2b1ec13f5bd34331b9b69f2a4e5cc702/c1909df93018408cb2c9a0dc4dd249c3.jpg?imwidth=300&filter=packshot">
+                <p class="product-title">Camper</p>
+                <p>Wagon - Lace-Up Ankle Boots</p>
+                <p>1 995 KR</p>
+            </div>
+
+            <div class="recommendations-product">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/82a4aa1670394653ae0df113eca0a1d5/636d16ee2b8b4d6c887db8dc624f68c4.jpg?imwidth=300&filter=packshot">
+                <p class="product-title">Birkenstock</p>
+                <p>Arizona BF Regular UNISEX</p>
+                <p>1 495 KR</p>
+            </div>
+
+            <div class="recommendations-product">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/4c350947ad603161a16ed51209e11537/bf8072f272d84f1bbfefd3136f73cb0b.jpg?imwidth=300&filter=packshot">
+                <p class="product-title">Dr. Martens</p>
+                <p>Temara - Slip-ins</p>
+                <p>1 995 KR</p>
+            </div>
+
+            <div class="recommendations-product">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/534612b4050b4056afba0d6da58648ce/2b882953a8574583a66728ecb436cc65.jpg?imwidth=300&filter=packshot">
+                <p class="product-title">Nike SB</p>
+                <p>SB Force 58 Premium</p>
+                <p>999 KR</p>
+            </div>
+
+            <div class="recommendations-product">
+                <img
+                    src="https://img01.ztat.net/article/spp-media-p1/a08ec27e1adb4bfdacf5f38f6c187742/a89db74fc5384c148eac8b33a0ab7a1a.jpg?imwidth=300&filter=packshot">
+                <p class="product-title">Puma</p>
+                <p>Club II Era UNISEX</p>
+                <p>799 KR</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">SHOPS</a>
+            <a href="#">CONTACT</a>
+            <a href="#">FAQ</a>
+        </div>
+
+        <div class="footer-payments">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-apple-pay"></i>
+        </div>
+
+        <!-- vänster hörn -->
+        <div class="socialmedia">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+
+        <!-- höger hörn -->
+        <div class="footer-copy">
+            <p>© 2026 Stepify</p>
+        </div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
