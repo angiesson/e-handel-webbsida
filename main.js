@@ -3,6 +3,14 @@ function toggleDropdown(btn) {
     content.classList.toggle('open');
 }
 
+const favourite = document.querySelector("#favourite"); //Hämtar elementet med id:tt favourite
+favourite.addEventListener("click", () => { //Skapar en evenetlistener som lyssnar efter klick
+    favourite.classList.toggle("filled"); //Byter stylen till css klassen "filled"
+});
+
+
+
+
 
 
 /*Hittar alla <img> innuti thumbnails och samlar dem i en lista */
