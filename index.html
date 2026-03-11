@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stepify</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 class="cormorant-garamond-regular">
+      <a href="index.html">Stepify</a>
+    </h1>
+
+    <nav class="cormorant-garamond-regular">
+      <a href="men.html">MEN</a>
+      <a href="women.html">WOMEN</a>
+      <a href="kids.html">KIDS</a>
+      <a href="about.html">ABOUT US</a>
+    </nav>
+
+    <div class="icons">
+      <div class="search-wrap">
+        <a href="#" class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <div class="search-dropdown" hidden>
+          <input type="text" class="search-input" placeholder="Search..." />
+        </div>
+      </div>
+
+      <a href="account.html"><i class="fa-regular fa-user"></i></a>
+
+      <a href="favorites.html" class="header-favorites">
+        <i class="fa-regular fa-heart"></i>
+        <span class="favorites-count">0</span>
+      </a>
+
+      <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+    </div>
+  </header>
+
+  <section class="frontpic">
+    <img src="images/frontpic.jpg" alt="Stepify shoes" class="frontpic-image">
+    <h2 class="frontpic-text">NEW COLLECTION</h2>
+  </section>
+
+  <section class="womenshoes">
+    <h2 class="section-title">For her</h2>
+
+    <div class="products">
+      <div class="shoe-item" data-id="women-1" data-name="Tammy Loafers" data-price="1999 kr" data-image="images/shoe10.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/shoe10.jpg" alt="Shoes for her" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Tammy Loafers</p>
+          <p class="shoe-price">1999 kr</p>
+        </div>
+        <p class="shoe-material">Brown Suede</p>
+      </div>
+
+      <div class="shoe-item" data-id="women-2" data-name="Stella Slip-in" data-price="1499 kr" data-image="images/shoe4.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/shoe4.jpg" alt="Shoes for her" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Stella Slip-in</p>
+          <p class="shoe-price">1499 kr</p>
+        </div>
+        <p class="shoe-material">Gray Suede</p>
+      </div>
+
+      <div class="shoe-item" data-id="women-3" data-name="Molino Sneakers" data-price="1999 kr" data-image="images/shoe7.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/shoe7.jpg" alt="Shoes for her" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Molino Sneakers</p>
+          <p class="shoe-price">1999 kr</p>
+        </div>
+        <p class="shoe-material">Leather</p>
+      </div>
+
+      <div class="shoe-item" data-id="women-4" data-name="Campo Sneakers" data-price="2399 kr" data-image="images/shoe8.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/shoe8.jpg" alt="Shoes for her" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Campo Sneakers</p>
+          <p class="shoe-price">2399 kr</p>
+        </div>
+        <p class="shoe-material">Navy Suede</p>
+      </div>
+
+      <div class="shoe-item" data-id="women-5" data-name="Bueno Sandals" data-price="999 kr" data-image="images/shoe9.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/shoe9.jpg" alt="Shoes for her" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Bueno Sandals</p>
+          <p class="shoe-price">999 kr</p>
+        </div>
+        <p class="shoe-material">Red Leather</p>
+      </div>
+
+      <div class="shoe-item" data-id="women-6" data-name="Marron Loafers" data-price="1299 kr" data-image="images/shoe1.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/shoe1.jpg" alt="Shoes for her" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Marron Loafers</p>
+          <p class="shoe-price">1299 kr</p>
+        </div>
+        <p class="shoe-material">Brown Leather</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secondpic">
+    <img src="images/menshoe1.jpg" alt="Stepify shoes" class="secondpic-image">
+    <h2 class="secondpic-text">It doesn't need to be stylish - but it is</h2>
+  </section>
+
+  <section class="menshoes">
+    <h2 class="section-title">For him</h2>
+
+    <div class="products">
+      <div class="shoe-item" data-id="men-1" data-name="Terry Loafers" data-price="1999 kr" data-image="images/menshoe2.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/menshoe2.jpg" alt="Shoes for him" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Terry Loafers</p>
+          <p class="shoe-price">1999 kr</p>
+        </div>
+        <p class="shoe-material">Brown Suede</p>
+      </div>
+
+      <div class="shoe-item" data-id="men-2" data-name="Cameron Loafers" data-price="1499 kr" data-image="images/menshoe8.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/menshoe8.jpg" alt="Shoes for him" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Cameron Loafers</p>
+          <p class="shoe-price">1499 kr</p>
+        </div>
+        <p class="shoe-material">Nude Suede</p>
+      </div>
+
+      <div class="shoe-item" data-id="men-3" data-name="Anderson Sneakers Green" data-price="1999 kr" data-image="images/menshoe3.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/menshoe3.jpg" alt="Shoes for him" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Anderson Sneakers</p>
+          <p class="shoe-price">1999 kr</p>
+        </div>
+        <p class="shoe-material">Green Suede</p>
+      </div>
+
+      <div class="shoe-item" data-id="men-4" data-name="Anderson Sneakers Navy" data-price="1999 kr" data-image="images/menshoe4.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/menshoe4.jpg" alt="Shoes for him" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Anderson Sneakers</p>
+          <p class="shoe-price">1999 kr</p>
+        </div>
+        <p class="shoe-material">Navy Suede</p>
+      </div>
+
+      <div class="shoe-item" data-id="men-5" data-name="Sony Sneakers" data-price="2599 kr" data-image="images/menshoe6.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/menshoe6.jpg" alt="Shoes for him" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Sony Sneakers</p>
+          <p class="shoe-price">2599 kr</p>
+        </div>
+        <p class="shoe-material">Black Leather</p>
+      </div>
+
+      <div class="shoe-item" data-id="men-6" data-name="Brandon Boots" data-price="2999 kr" data-image="images/menshoe7.jpg">
+        <button class="favorite-btn" type="button">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <img src="images/menshoe7.jpg" alt="Shoes for him" class="shoe-image">
+        <div class="shoe-row">
+          <p class="shoe-name">Brandon Boots</p>
+          <p class="shoe-price">2999 kr</p>
+        </div>
+        <p class="shoe-material">Black Suede</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="newarrivals">
+    <h2 class="section-title">New Arrivals</h2>
+
+    <div class="newarrivals-grid">
+      <div class="new-item">
+        <img src="images/newarrivals1.jpg" alt="New Arrivals" class="new-arrivals-image">
+        <a href="#" class="new-link">Accessories</a>
+      </div>
+
+      <div class="new-item">
+        <img src="images/newarrivals2.jpg" alt="New Arrivals" class="new-arrivals-image">
+        <a href="#" class="new-link">Women</a>
+      </div>
+
+      <div class="new-item">
+        <img src="images/newarrivals3.jpg" alt="New Arrivals" class="new-arrivals-image">
+        <a href="#" class="new-link">Men</a>
+      </div>
+
+      <div class="new-item">
+        <img src="images/newarrivals4.jpg" alt="New Arrivals" class="new-arrivals-image">
+        <a href="#" class="new-link">Kids</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">SHOPS</a>
+      <a href="#">CONTACT</a>
+      <a href="#">FAQ</a>
+    </div>
+
+    <div class="footer-payments">
+      <i class="fa-brands fa-cc-visa"></i>
+      <i class="fa-brands fa-cc-mastercard"></i>
+      <i class="fa-brands fa-cc-apple-pay"></i>
+    </div>
+
+    <div class="socialmedia">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-tiktok"></i>
+    </div>
+
+    <div class="footer-copy">
+      <p>© 2026 Stepify</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
