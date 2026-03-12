@@ -180,6 +180,12 @@ nav a {
     border-color: var(--main-color);
 }
 
+.size-btn button.active {
+    background: var(--main-color);
+    color: var(--background-color);
+    border-color: var(--main-color);
+}
+
 .buy-btn {
     padding: 1rem 1.5rem;
     border-radius: 9999px;
@@ -196,6 +202,15 @@ nav a {
 
 .buy-btn:hover {
     background: var(--main-color);
+}
+
+.buy-btn.active {
+    background: var(--main-color);
+}
+
+#warning {
+    margin-top: 1rem;
+    color: var(--mid);
 }
 
 .actions {
