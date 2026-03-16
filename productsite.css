@@ -41,6 +41,11 @@ header {
     margin: 0;
 }
 
+h1 a {
+    text-decoration: none;
+    color: var(--dark)
+}
+
 /* ===== NAVIGATION ===== */
 .cormorant-garamond-regular {
     font-family: "Cormorant Garamond";
