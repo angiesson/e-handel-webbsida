@@ -72,6 +72,10 @@ nav a {
     font-style: normal;
 }
 
+.icons a {
+    color: var(--dark);
+}
+
 .icons i {
     font-size: 16px;
     cursor: pointer;
